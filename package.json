@@ -1,6 +1,6 @@
 {
   "name": "apichainer",
-  "version": "1.0.7",
+  "version": "1.1.2",
   "description": "A flexible Express middleware chaining library for Node.js, providing validation, authentication, logging, and parallel execution with CORS support.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
