@@ -1,6 +1,6 @@
 {
   "name": "apichainer",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "TypeScript-first library for chaining middleware in RESTful APIs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,6 +15,7 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@jest-mock/express": "^3.0.0",
     "@types/jest": "^29.5.14",
     "@typescript-eslint/eslint-plugin": "^8.32.0",
     "@typescript-eslint/parser": "^8.32.0",
@@ -28,6 +29,7 @@
   "dependencies": {
     "@types/express": "^5.0.1",
     "ajv": "^8.17.1",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "typedoc": "^0.28.4"
   }
 }
