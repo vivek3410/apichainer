@@ -1,7 +1,7 @@
 {
   "name": "apichainer",
-  "version": "1.0.5",
-  "description": "TypeScript-first library for chaining middleware in RESTful APIs",
+  "version": "1.0.7",
+  "description": "A flexible Express middleware chaining library for Node.js, providing validation, authentication, logging, and parallel execution with CORS support.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -10,9 +10,28 @@
     "lint": "eslint src --ext .ts",
     "prepare": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "express",
+    "middleware",
+    "validation",
+    "authentication",
+    "logging",
+    "cors",
+    "node.js",
+    "api",
+    "chaining",
+    "parallel"
+  ],
+  "author": "Vivek Mamidi <info@vmtechnologiesllc.com>[](https://vmtechnologiesllc.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivek3410/apichainer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vivek3410/apichainer/issues"
+  },
+  "homepage": "https://github.com/vivek3410/apichainer#readme",
   "type": "commonjs",
   "devDependencies": {
     "@jest-mock/express": "^3.0.0",
@@ -31,5 +50,11 @@
     "ajv": "^8.17.1",
     "express": "^5.1.0",
     "typedoc": "^0.28.4"
-  }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
+  ]
 }
